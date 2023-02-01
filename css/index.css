@@ -1,0 +1,441 @@
+#nBrand {
+    height: 60px;
+}
+
+#navUl li {
+    border-right: 1px solid #829894;
+    margin: 0 2px;
+}
+
+#navUl li a {
+    margin-right: 2px;
+}
+
+#navUl li:last-child {
+    border-right: none;
+}
+
+#navUl li a:hover {
+    color: olivedrab;
+}
+
+#navUl a:hover {
+    color: white;
+}
+
+#navBack {
+    background-image: url(/resimler/ust-bg.jpg);
+    width: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+#headerWrite {
+    margin-top: 120px;
+}
+
+
+@media(max-width:1200px) {
+    #navUl a {
+        color: #212529;
+        text-align: center;
+    }
+
+    #navUl li:hover {
+        background-color: olivedrab;
+    }
+
+    #navUl li a:hover {
+        color: white;
+    }
+
+    #navUl li {
+        border: none;
+    }
+
+}
+
+
+/*Hizmetlerimiz*/
+.middleTongue {
+    color: orangered;
+}
+
+.pspan {
+    color: orangered;
+    font-size: 35px;
+}
+
+.middleSection {
+    height: 575px;
+    background-color: rgb(199, 71, 24);
+}
+
+
+
+.middleSection2 {
+    font-size: 15px;
+}
+
+
+
+
+
+@media(max-width:376px) {
+    .middleSection {
+        height: 1600px;
+
+    }
+
+    .middleSection2 {
+        background-color: rgb(199, 71, 24);
+    }
+
+    .middleSection3 {
+        margin-top: 110px;
+    }
+
+    #headerWrite h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:350px) and (max-width:370px) {
+
+ 
+
+    .middleSection2 {
+        background-color: rgb(199, 71, 24);
+    }
+
+    .servicerow1 {
+        margin-top: 250px;
+    }
+    .middleSection3{
+        margin-top: 260px;
+    }
+
+}
+
+@media screen and (min-width:370px) and (max-width:391px) {
+
+ 
+
+    .middleSection2 {
+        background-color: rgb(199, 71, 24);
+    }
+
+    .servicerow1 {
+        margin-top: 170px;
+    }
+    .middleSection3{
+        margin-top: 180px;
+    }
+
+}
+
+
+@media screen and (min-width:391px) and (max-width:416px) {
+
+ 
+
+    .middleSection2 {
+        background-color: rgb(199, 71, 24);
+    }
+
+    .servicerow1 {
+        margin-top: 90px;
+    }
+    .middleSection3{
+        margin-top: 100px;
+    }
+}
+
+@media screen and (min-width:417px) and (max-width:450px) {
+
+ 
+
+    .middleSection2 {
+        background-color: rgb(199, 71, 24);
+    }
+
+    .servicerow1 {
+        margin-top: 50px;
+    }
+
+    .middleSection3{
+        margin-top: 60px;
+    }
+
+
+}
+
+
+@media(max-width:499px) {
+    #nBrand {
+        display: none;
+    }
+
+    #headerWrite {
+
+        margin-bottom: -100px;
+    }
+}
+
+
+@media screen and (min-width:450px) and (max-width:575px) {
+    .servicerow1 {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width:575px) {
+
+    .middleSection {
+        height: 1600px;
+    }
+
+    .middleSection2 {
+        background-color: rgb(199, 71, 24);
+    }
+
+    .nail {
+        color: orangered;
+        font-size: 50px;
+    }
+
+    .rocket {
+        margin-bottom: 30px;
+        font-size: 50px;
+        font-style: italic;
+    }
+
+    .secwrite {
+
+        color: white;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+   
+
+
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+
+    .middleSection {
+        height: 1050px;
+    }
+
+    .nail {
+        color: orangered;
+        font-size: 60px;
+    }
+
+    .rocket {
+        margin-bottom: 30px;
+        font-size: 60px;
+
+    }
+
+    .secwrite {
+
+        color: white;
+        font-weight: 700;
+        font-size: 30px;
+        font-style: italic;
+    }
+
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .middleSection {
+        height: 650px;
+    }
+
+    .nail {
+        color: orangered;
+        font-size: 60px;
+    }
+
+    .rocket {
+        margin-bottom: 30px;
+        font-size: 60px;
+    }
+
+    .secwrite {
+
+        color: white;
+        font-weight: 700;
+        font-size: 30px;
+        font-style: italic;
+
+    }
+
+    .section2p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .middleSection {
+        height: 620px;
+    }
+
+    .nail {
+        color: orangered;
+        font-size: 60px;
+    }
+
+    .rocket {
+        margin-bottom: 30px;
+        font-size: 70px;
+    }
+
+    .secwrite {
+
+        color: white;
+        font-weight: 700;
+        font-size: 30px;
+        font-style: italic;
+    }
+
+}
+
+.middleWorker {
+    width: 150px;
+    height: 150px;
+    background-color: orangered;
+}
+
+.backimg {
+    background-image: url(/resimler/ust-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+@media (min-width:1201px) {
+    .nail {
+        color: orangered;
+        font-size: 60px;
+    }
+
+    .rocket {
+        margin-bottom: 30px;
+        font-size: 120px;
+    }
+
+    .secwrite {
+
+        color: white;
+        font-weight: 700;
+        font-size: 30px;
+        font-style: italic;
+
+    }
+
+
+}
+
+/*Section5*/
+
+
+.section5img:hover p {
+    opacity: 1;
+}
+
+
+.section5img:hover {
+    transform: rotate(5deg);
+    transition: all .2s ease-in-out;
+    opacity: 1;
+}
+
+
+.section5row p {
+    color: black;
+    opacity: 0.4;
+}
+
+/*Footer*/
+
+.footer {
+    height: 300px;
+}
+
+.footerlogo {
+    color: gray;
+}
+
+.footerlogo:hover {
+    color: white;
+}
+
+.footerhead {
+    height: 300px;
+}
+
+
+/*About HTML*/
+
+@media (min-width:768px) and (max-width:1400px) {
+    #headerAboutWrite {
+        margin-top: 70px;
+        height: 200px;
+    }
+
+}
+
+.vision p,
+.mission p,
+.hp {
+    text-align: justify;
+}
+
+
+
+#navBackAbout {
+    background-image: url(/resimler/ust-bg-2.jpg);
+    padding: 40px;
+    width: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Services*/
+
+.servicepar p {
+    text-align: justify;
+}
+
+/*Portfolio*/
+
+.portopar p {
+    text-align: justify;
+}
+
+/*Blog*/
+.blogpar {
+    text-align: justify;
+}
+
+.blogarrow {
+    opacity: 0.7;
+}
+
+.blogarrow:hover {
+    opacity: 1;
+
+}
+
+/*Contact*/
